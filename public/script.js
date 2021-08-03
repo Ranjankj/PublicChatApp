@@ -4,6 +4,9 @@ let chatwindow = document.querySelector(".chat-window");
 let myName = document.querySelector(".me .user-name");
 let onlineList = document.querySelector(".online-list");
 let username = prompt("Enter your name: ");
+while (username.length == 0) {
+  username = prompt("Please Enter Your Name: ");
+}
 myName.textContent = username;
 
 userInput.addEventListener("keypress", function (e) {
