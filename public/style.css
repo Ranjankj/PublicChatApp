@@ -116,6 +116,7 @@
 }
 
 .me {
+  border-bottom: 1px solid gray;
 }
 
 .online-list {
